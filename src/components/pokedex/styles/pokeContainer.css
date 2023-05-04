@@ -1,0 +1,16 @@
+.poke-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.pokemons{
+    display: grid;
+    width: 100%;
+    grid-template-columns:  repeat(auto-fill, minmax(300px, 350px));
+    justify-content: space-evenly;
+    gap: 2em;
+}

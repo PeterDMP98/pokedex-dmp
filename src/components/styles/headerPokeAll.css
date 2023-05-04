@@ -1,0 +1,51 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_decoration{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.header__decoration{
+    position: relative;
+    background-color: #DD1A1A;
+    height: 60%;
+}
+
+.header__circle{
+    position: absolute;
+    left: 87%;
+    top: 45%;
+    background-color: #fff;
+    border: 0.4em solid #000;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__circle-interno{
+    background-color: #555;
+    border: 0.4em solid #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.pokedex__logo {
+    width: 100%;
+    max-width: 800px;
+}
+
+.logo__img{
+    max-width: 250px;
+
+}

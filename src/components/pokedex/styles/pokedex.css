@@ -1,0 +1,31 @@
+/*main Pokedex*/
+
+.pokedex__main {
+    width: 100%;
+    padding: 0 5em;
+    position: relative;
+}
+
+.pokedex__logo {
+    width: 250px;
+    position: absolute;
+    top: 0;
+}
+
+.pokedex__welcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em 0;
+}
+
+.pokedex__welcon>p {
+    font-size: 1.2em;
+}
+
+.pokedex__name {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #DD1A1A;
+}
