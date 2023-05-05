@@ -18,44 +18,6 @@
     position: relative;
 }
 
-.bg-grass {
-    background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%)
-}
-
-.bg-fire  {
-    background-image: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
-}
-
-.bg-water{
- background-image: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);   
-}
-
-.color-grass{
-    color:  #CAE099;
-}
-
-.color-fire{
-    color:#E8AE1B ;
-}
-
-.color-water{
-    color: #82B2F1 ;
-}
-
-.border-grass{
-    border-color: #ABDAC6;
-}
-
-.border-fire{
-    border-color:#E35825 ;
-}
-
-.border-water{
-    border-color:#1479FB ;
-}
-
-
-
 .pokemon__sprite {
     width: 60%;
     position: absolute;

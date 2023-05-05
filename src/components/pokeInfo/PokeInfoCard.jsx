@@ -37,15 +37,14 @@ const PokeInfoCard = ({ pokemon }) => {
                     <section className='poke-info_types-habilities'>
                         <article className='poke-info__types'>
                             <h3>Types</h3>
-                            {
-                                <ul className='poke-info__types-list'>
-                                    {
-                                        pokemon?.types.map(type => (
-                                            <li className={`poke-info__type-specific bg-${pokemon?.types[0].type.name}`} key={type.type.url}>{type.type.name}</li>
-                                        ))
-                                    }
-                                </ul>
-                            }
+                            <ul className='poke-info__types-list'>
+                                {
+                                    pokemon?.types.map(type => (
+                                        <li className={`poke-info__type-specific bg-${pokemon?.types[0].type.name}`} key={type.type.url}>{type.type.name}</li>
+                                    ))
+                                    
+                                }
+                            </ul>
                         </article>
 
                         <article className='poke-info__abilities '>

@@ -42,8 +42,8 @@ const Pagination = ({ pokePerPage, pokePage, setPokePage, amoutPokemon }) => {
 
                 {
                     pageNumber.map(noPage => (
-                        <li key={noPage} className='pagination_number-li'>
-                            <a  onClick={() => onSpecificPage(noPage)} className={`pagination-link ${noPage === pokePage ? `is-current` : ``}`}>{noPage}</a>
+                        <li onClick={() => onSpecificPage(noPage)} key={noPage} className='pagination_number-li'>
+                            <a  className={`pagination-link ${noPage === pokePage ? `is-current` : ``}`}>{noPage}</a>
                         </li>
                     )).slice(firstPage, lastPage)
                 }

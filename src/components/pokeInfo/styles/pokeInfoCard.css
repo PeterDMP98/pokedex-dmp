@@ -127,6 +127,7 @@
     background-color: #fff;
     padding: 0 1.2em;
     border: 0.1px solid #D3D3D3;
+    
 }
 
 .poke-info__content-stats {
@@ -210,4 +211,15 @@
     border-radius: 2em;
     background-color:#E5E5E5 ;
     border: none;
+}
+
+@media (max-width:800px) {
+
+
+    .poke-info_types-habilities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 0;
+    }
 }
