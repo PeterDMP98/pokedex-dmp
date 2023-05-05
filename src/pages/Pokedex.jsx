@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import FormPoke from '../components/pokedex/FormPoke'
 import PokeContainer from '../components/pokedex/PokeContainer'
 import '../components/pokedex/styles/pokedex.css'
-import HeaderPokeAll from '../components/headerPokeAll'
+import HeaderPokeAll from '../components/HeaderPokeAll'
 
 const Pokedex = () => {
 
