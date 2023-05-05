@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
 import PokeInfoCard from '../components/pokeInfo/PokeInfoCard'
-import HeaderPokeAll from '../components/headerPokeAll'
+import HeaderPokeAll from '../components/HeaderPokeAll'
 
 const PokeInfo = () => {
   const { name } = useParams()
