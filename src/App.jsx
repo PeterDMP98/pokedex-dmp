@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Pokedex from './pages/Pokedex'
 import ProtecteRoutes from './pages/ProtecteRoutes'
-import PokeInfo from './pages/pokeInfo'
+import PokeInfo from './pages/PokeInfo'
 
 
 function App() {
