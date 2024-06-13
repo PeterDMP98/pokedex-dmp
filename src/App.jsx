@@ -18,7 +18,6 @@ function App() {
         </Route>
 
         <Route path='/' element={<Home />} />
-        <Route path='*' element={<h1>direccion errronea</h1>}/>
       </Routes>
     </div >
   )

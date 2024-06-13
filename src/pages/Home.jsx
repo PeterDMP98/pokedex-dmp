@@ -1,12 +1,9 @@
 import React from 'react'
 import FormNameUser from '../components/Home/FormNameUser'
-import { useSelector } from 'react-redux'
 import '../components/Home/styles/home.css'
 
 
 const Home = () => {
-
-  const { trainerName } = useSelector(state => state)
 
   return (
     <div className='home'>

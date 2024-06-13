@@ -15,9 +15,16 @@ const FormNameUser = () => {
 
   const hanldeSubmit = e => {
     e.preventDefault()
-    dispatch(setTrainerName(inputName.current.value.trim()))
-    navigate('/pokedex')
+
+      localStorage.setItem('entrenador', inputName.current.value.trim())
+      dispatch(setTrainerName(localStorage.getItem('entrenador')))
+      navigate('/pokedex')
+    
+    //dispatch(setTrainerName(inputName.current.value.trim()))
+    
   }
+
+  
 
   return (
     <form className='home__form' onSubmit={hanldeSubmit}>
